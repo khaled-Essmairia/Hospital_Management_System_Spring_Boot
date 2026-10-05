@@ -1,0 +1,3056 @@
+Structure du dossier
+Le num‚ro de s‚rie du volume est 7C20-3549
+C:.
++---.mvn
+|   \---wrapper
++---.settings
++---admin
++---src
+|   +---main
+|   |   +---java
+|   |   |   \---com
+|   |   |       \---vgnit
+|   |   |           \---medical
+|   |   |               +---aspect
+|   |   |               +---controller
+|   |   |               +---dto
+|   |   |               +---entity
+|   |   |               +---repository
+|   |   |               +---security_configuration
+|   |   |               +---service
+|   |   |               |   \---impl
+|   |   |               \---utils
+|   |   |                   \---constants
+|   |   \---resources
+|   |       +---static
+|   |       |   +---css
+|   |       |   +---doctorimages
+|   |       |   +---fonts
+|   |       |   +---img
+|   |       |   |   +---assets
+|   |       |   |   |   +---css
+|   |       |   |   |   |   +---assets
+|   |       |   |   |   |   |   +---css
+|   |       |   |   |   |   |   +---img
+|   |       |   |   |   |   |   +---js
+|   |       |   |   |   |   |   \---plugins
+|   |       |   |   |   |   |       \---fontawesome
+|   |       |   |   |   |   |           \---css
+|   |       |   |   |   |   +---template
+|   |       |   |   |   |   \---template-rtl
+|   |       |   |   |   +---img
+|   |       |   |   |   |   +---assets
+|   |       |   |   |   |   |   +---css
+|   |       |   |   |   |   |   +---img
+|   |       |   |   |   |   |   +---js
+|   |       |   |   |   |   |   \---plugins
+|   |       |   |   |   |   |       \---fontawesome
+|   |       |   |   |   |   |           \---css
+|   |       |   |   |   |   +---template
+|   |       |   |   |   |   \---template-rtl
+|   |       |   |   |   +---js
+|   |       |   |   |   |   +---assets
+|   |       |   |   |   |   |   +---css
+|   |       |   |   |   |   |   +---img
+|   |       |   |   |   |   |   +---js
+|   |       |   |   |   |   |   \---plugins
+|   |       |   |   |   |   |       \---fontawesome
+|   |       |   |   |   |   |           \---css
+|   |       |   |   |   |   +---template
+|   |       |   |   |   |   \---template-rtl
+|   |       |   |   |   \---plugins
+|   |       |   |   |       \---fontawesome
+|   |       |   |   |           \---css
+|   |       |   |   |               +---assets
+|   |       |   |   |               |   +---css
+|   |       |   |   |               |   +---img
+|   |       |   |   |               |   +---js
+|   |       |   |   |               |   \---plugins
+|   |       |   |   |               |       \---fontawesome
+|   |       |   |   |               |           \---css
+|   |       |   |   |               +---template
+|   |       |   |   |               \---template-rtl
+|   |       |   |   +---category
+|   |       |   |   +---icons
+|   |       |   |   +---profiles
+|   |       |   |   +---template
+|   |       |   |   |   +---assets
+|   |       |   |   |   |   +---css
+|   |       |   |   |   |   +---img
+|   |       |   |   |   |   +---js
+|   |       |   |   |   |   \---plugins
+|   |       |   |   |   |       \---fontawesome
+|   |       |   |   |   |           \---css
+|   |       |   |   |   +---template
+|   |       |   |   |   \---template-rtl
+|   |       |   |   \---template-rtl
+|   |       |   |       +---assets
+|   |       |   |       |   +---css
+|   |       |   |       |   +---img
+|   |       |   |       |   +---js
+|   |       |   |       |   \---plugins
+|   |       |   |       |       \---fontawesome
+|   |       |   |       |           \---css
+|   |       |   |       +---template
+|   |       |   |       \---template-rtl
+|   |       |   +---js
+|   |       |   \---plugins
+|   |       |       +---alertify
+|   |       |       +---apexchart
+|   |       |       +---bootstrap
+|   |       |       |   +---css
+|   |       |       |   \---js
+|   |       |       +---bootstrap-tagsinput
+|   |       |       |   \---js
+|   |       |       +---c3-chart
+|   |       |       +---chartjs
+|   |       |       +---clipboard
+|   |       |       +---countup
+|   |       |       +---datatables
+|   |       |       +---daterangepicker
+|   |       |       +---dragula
+|   |       |       |   +---css
+|   |       |       |   \---js
+|   |       |       +---feather
+|   |       |       |   \---fonts
+|   |       |       +---flot
+|   |       |       +---fontawesome
+|   |       |       |   +---css
+|   |       |       |   \---webfonts
+|   |       |       +---fullcalendar
+|   |       |       +---icons
+|   |       |       |   +---feather
+|   |       |       |   |   \---fonts
+|   |       |       |   |       +---assets
+|   |       |       |   |       |   +---css
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---img
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---js
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   \---plugins
+|   |       |       |   |       |       \---fontawesome
+|   |       |       |   |       |           \---css
+|   |       |       |   |       |               +---assets
+|   |       |       |   |       |               |   +---css
+|   |       |       |   |       |               |   +---img
+|   |       |       |   |       |               |   +---js
+|   |       |       |   |       |               |   \---plugins
+|   |       |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |               |           \---css
+|   |       |       |   |       |               +---template
+|   |       |       |   |       |               \---template-rtl
+|   |       |       |   |       +---template
+|   |       |       |   |       |   +---assets
+|   |       |       |   |       |   |   +---css
+|   |       |       |   |       |   |   +---img
+|   |       |       |   |       |   |   +---js
+|   |       |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |           \---css
+|   |       |       |   |       |   +---template
+|   |       |       |   |       |   \---template-rtl
+|   |       |       |   |       \---template-rtl
+|   |       |       |   |           +---assets
+|   |       |       |   |           |   +---css
+|   |       |       |   |           |   +---img
+|   |       |       |   |           |   +---js
+|   |       |       |   |           |   \---plugins
+|   |       |       |   |           |       \---fontawesome
+|   |       |       |   |           |           \---css
+|   |       |       |   |           +---template
+|   |       |       |   |           \---template-rtl
+|   |       |       |   +---flags
+|   |       |       |   |   \---flags
+|   |       |       |   |       +---assets
+|   |       |       |   |       |   +---css
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |               +---assets
+|   |       |       |   |       |   |   |   |   |               |   +---css
+|   |       |       |   |       |   |   |   |   |               |   +---img
+|   |       |       |   |       |   |   |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |               |           \---css
+|   |       |       |   |       |   |   |   |   |               +---template
+|   |       |       |   |       |   |   |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |               +---assets
+|   |       |       |   |       |   |   |   |   |               |   +---css
+|   |       |       |   |       |   |   |   |   |               |   +---img
+|   |       |       |   |       |   |   |   |   |               |   +---js
+|   |       |       |   |       |   |   |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |               |           \---css
+|   |       |       |   |       |   |   |   |   |               +---template
+|   |       |       |   |       |   |   |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |       +---assets
+|   |       |       |   |       |   |   |   |       |   +---css
+|   |       |       |   |       |   |   |   |       |   +---img
+|   |       |       |   |       |   |   |   |       |   +---js
+|   |       |       |   |       |   |   |   |       |   \---plugins
+|   |       |       |   |       |   |   |   |       |       \---fontawesome
+|   |       |       |   |       |   |   |   |       |           \---css
+|   |       |       |   |       |   |   |   |       +---template
+|   |       |       |   |       |   |   |   |       \---template-rtl
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   |               +---assets
+|   |       |       |   |       |   |   |               |   +---css
+|   |       |       |   |       |   |   |               |   +---img
+|   |       |       |   |       |   |   |               |   +---js
+|   |       |       |   |       |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |               |           \---css
+|   |       |       |   |       |   |   |               +---template
+|   |       |       |   |       |   |   |               \---template-rtl
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |           \---css
+|   |       |       |   |       |   |   |   +---template
+|   |       |       |   |       |   |   |   \---template-rtl
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   |       +---assets
+|   |       |       |   |       |   |       |   +---css
+|   |       |       |   |       |   |       |   +---img
+|   |       |       |   |       |   |       |   +---js
+|   |       |       |   |       |   |       |   \---plugins
+|   |       |       |   |       |   |       |       \---fontawesome
+|   |       |       |   |       |   |       |           \---css
+|   |       |       |   |       |   |       +---template
+|   |       |       |   |       |   |       \---template-rtl
+|   |       |       |   |       |   +---img
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |               +---assets
+|   |       |       |   |       |   |   |   |   |               |   +---css
+|   |       |       |   |       |   |   |   |   |               |   +---img
+|   |       |       |   |       |   |   |   |   |               |   +---js
+|   |       |       |   |       |   |   |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |               |           \---css
+|   |       |       |   |       |   |   |   |   |               +---template
+|   |       |       |   |       |   |   |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |       +---assets
+|   |       |       |   |       |   |   |   |       |   +---css
+|   |       |       |   |       |   |   |   |       |   +---img
+|   |       |       |   |       |   |   |   |       |   +---js
+|   |       |       |   |       |   |   |   |       |   \---plugins
+|   |       |       |   |       |   |   |   |       |       \---fontawesome
+|   |       |       |   |       |   |   |   |       |           \---css
+|   |       |       |   |       |   |   |   |       +---template
+|   |       |       |   |       |   |   |   |       \---template-rtl
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |               +---assets
+|   |       |       |   |       |   |   |   |   |               |   +---css
+|   |       |       |   |       |   |   |   |   |               |   +---img
+|   |       |       |   |       |   |   |   |   |               |   +---js
+|   |       |       |   |       |   |   |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |               |           \---css
+|   |       |       |   |       |   |   |   |   |               +---template
+|   |       |       |   |       |   |   |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |       +---assets
+|   |       |       |   |       |   |   |   |       |   +---css
+|   |       |       |   |       |   |   |   |       |   +---img
+|   |       |       |   |       |   |   |   |       |   +---js
+|   |       |       |   |       |   |   |   |       |   \---plugins
+|   |       |       |   |       |   |   |   |       |       \---fontawesome
+|   |       |       |   |       |   |   |   |       |           \---css
+|   |       |       |   |       |   |   |   |       +---template
+|   |       |       |   |       |   |   |   |       \---template-rtl
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |               +---assets
+|   |       |       |   |       |   |   |   |   |               |   +---css
+|   |       |       |   |       |   |   |   |   |               |   +---img
+|   |       |       |   |       |   |   |   |   |               |   +---js
+|   |       |       |   |       |   |   |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |               |           \---css
+|   |       |       |   |       |   |   |   |   |               +---template
+|   |       |       |   |       |   |   |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |       +---assets
+|   |       |       |   |       |   |   |   |       |   +---css
+|   |       |       |   |       |   |   |   |       |   +---img
+|   |       |       |   |       |   |   |   |       |   +---js
+|   |       |       |   |       |   |   |   |       |   \---plugins
+|   |       |       |   |       |   |   |   |       |       \---fontawesome
+|   |       |       |   |       |   |   |   |       |           \---css
+|   |       |       |   |       |   |   |   |       +---template
+|   |       |       |   |       |   |   |   |       \---template-rtl
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   |               +---assets
+|   |       |       |   |       |   |   |               |   +---css
+|   |       |       |   |       |   |   |               |   |   +---assets
+|   |       |       |   |       |   |   |               |   |   |   +---css
+|   |       |       |   |       |   |   |               |   |   |   +---img
+|   |       |       |   |       |   |   |               |   |   |   +---js
+|   |       |       |   |       |   |   |               |   |   |   \---plugins
+|   |       |       |   |       |   |   |               |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |               |   |   |           \---css
+|   |       |       |   |       |   |   |               |   |   +---template
+|   |       |       |   |       |   |   |               |   |   \---template-rtl
+|   |       |       |   |       |   |   |               |   +---img
+|   |       |       |   |       |   |   |               |   |   +---assets
+|   |       |       |   |       |   |   |               |   |   |   +---css
+|   |       |       |   |       |   |   |               |   |   |   +---img
+|   |       |       |   |       |   |   |               |   |   |   +---js
+|   |       |       |   |       |   |   |               |   |   |   \---plugins
+|   |       |       |   |       |   |   |               |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |               |   |   |           \---css
+|   |       |       |   |       |   |   |               |   |   +---template
+|   |       |       |   |       |   |   |               |   |   \---template-rtl
+|   |       |       |   |       |   |   |               |   +---js
+|   |       |       |   |       |   |   |               |   |   +---assets
+|   |       |       |   |       |   |   |               |   |   |   +---css
+|   |       |       |   |       |   |   |               |   |   |   +---img
+|   |       |       |   |       |   |   |               |   |   |   +---js
+|   |       |       |   |       |   |   |               |   |   |   \---plugins
+|   |       |       |   |       |   |   |               |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |               |   |   |           \---css
+|   |       |       |   |       |   |   |               |   |   +---template
+|   |       |       |   |       |   |   |               |   |   \---template-rtl
+|   |       |       |   |       |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |               |           \---css
+|   |       |       |   |       |   |   |               |               +---assets
+|   |       |       |   |       |   |   |               |               |   +---css
+|   |       |       |   |       |   |   |               |               |   +---img
+|   |       |       |   |       |   |   |               |               |   +---js
+|   |       |       |   |       |   |   |               |               |   \---plugins
+|   |       |       |   |       |   |   |               |               |       \---fontawesome
+|   |       |       |   |       |   |   |               |               |           \---css
+|   |       |       |   |       |   |   |               |               +---template
+|   |       |       |   |       |   |   |               |               \---template-rtl
+|   |       |       |   |       |   |   |               +---template
+|   |       |       |   |       |   |   |               |   +---assets
+|   |       |       |   |       |   |   |               |   |   +---css
+|   |       |       |   |       |   |   |               |   |   +---img
+|   |       |       |   |       |   |   |               |   |   +---js
+|   |       |       |   |       |   |   |               |   |   \---plugins
+|   |       |       |   |       |   |   |               |   |       \---fontawesome
+|   |       |       |   |       |   |   |               |   |           \---css
+|   |       |       |   |       |   |   |               |   +---template
+|   |       |       |   |       |   |   |               |   \---template-rtl
+|   |       |       |   |       |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |                   +---assets
+|   |       |       |   |       |   |   |                   |   +---css
+|   |       |       |   |       |   |   |                   |   +---img
+|   |       |       |   |       |   |   |                   |   +---js
+|   |       |       |   |       |   |   |                   |   \---plugins
+|   |       |       |   |       |   |   |                   |       \---fontawesome
+|   |       |       |   |       |   |   |                   |           \---css
+|   |       |       |   |       |   |   |                   +---template
+|   |       |       |   |       |   |   |                   \---template-rtl
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |               +---assets
+|   |       |       |   |       |   |   |   |               |   +---css
+|   |       |       |   |       |   |   |   |               |   +---img
+|   |       |       |   |       |   |   |   |               |   +---js
+|   |       |       |   |       |   |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |   |               |           \---css
+|   |       |       |   |       |   |   |   |               +---template
+|   |       |       |   |       |   |   |   |               \---template-rtl
+|   |       |       |   |       |   |   |   +---template
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |       +---assets
+|   |       |       |   |       |   |   |       |   +---css
+|   |       |       |   |       |   |   |       |   +---img
+|   |       |       |   |       |   |   |       |   +---js
+|   |       |       |   |       |   |   |       |   \---plugins
+|   |       |       |   |       |   |   |       |       \---fontawesome
+|   |       |       |   |       |   |   |       |           \---css
+|   |       |       |   |       |   |   |       +---template
+|   |       |       |   |       |   |   |       \---template-rtl
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   |       +---assets
+|   |       |       |   |       |   |       |   +---css
+|   |       |       |   |       |   |       |   |   +---assets
+|   |       |       |   |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |       |   |   +---template
+|   |       |       |   |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   |       |   +---img
+|   |       |       |   |       |   |       |   |   +---assets
+|   |       |       |   |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |       |   |   +---template
+|   |       |       |   |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   |       |   +---js
+|   |       |       |   |       |   |       |   |   +---assets
+|   |       |       |   |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |       |   |   +---template
+|   |       |       |   |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   |       |   \---plugins
+|   |       |       |   |       |   |       |       \---fontawesome
+|   |       |       |   |       |   |       |           \---css
+|   |       |       |   |       |   |       |               +---assets
+|   |       |       |   |       |   |       |               |   +---css
+|   |       |       |   |       |   |       |               |   +---img
+|   |       |       |   |       |   |       |               |   +---js
+|   |       |       |   |       |   |       |               |   \---plugins
+|   |       |       |   |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |   |       |               |           \---css
+|   |       |       |   |       |   |       |               +---template
+|   |       |       |   |       |   |       |               \---template-rtl
+|   |       |       |   |       |   |       +---template
+|   |       |       |   |       |   |       |   +---assets
+|   |       |       |   |       |   |       |   |   +---css
+|   |       |       |   |       |   |       |   |   +---img
+|   |       |       |   |       |   |       |   |   +---js
+|   |       |       |   |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |       |   |           \---css
+|   |       |       |   |       |   |       |   +---template
+|   |       |       |   |       |   |       |   \---template-rtl
+|   |       |       |   |       |   |       \---template-rtl
+|   |       |       |   |       |   |           +---assets
+|   |       |       |   |       |   |           |   +---css
+|   |       |       |   |       |   |           |   +---img
+|   |       |       |   |       |   |           |   +---js
+|   |       |       |   |       |   |           |   \---plugins
+|   |       |       |   |       |   |           |       \---fontawesome
+|   |       |       |   |       |   |           |           \---css
+|   |       |       |   |       |   |           +---template
+|   |       |       |   |       |   |           \---template-rtl
+|   |       |       |   |       |   +---js
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |   |           \---css
+|   |       |       |   |       |   |   |   |   +---template
+|   |       |       |   |       |   |   |   |   \---template-rtl
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   |               +---assets
+|   |       |       |   |       |   |   |               |   +---css
+|   |       |       |   |       |   |   |               |   +---img
+|   |       |       |   |       |   |   |               |   +---js
+|   |       |       |   |       |   |   |               |   \---plugins
+|   |       |       |   |       |   |   |               |       \---fontawesome
+|   |       |       |   |       |   |   |               |           \---css
+|   |       |       |   |       |   |   |               +---template
+|   |       |       |   |       |   |   |               \---template-rtl
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |           \---css
+|   |       |       |   |       |   |   |   +---template
+|   |       |       |   |       |   |   |   \---template-rtl
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   |       +---assets
+|   |       |       |   |       |   |       |   +---css
+|   |       |       |   |       |   |       |   +---img
+|   |       |       |   |       |   |       |   +---js
+|   |       |       |   |       |   |       |   \---plugins
+|   |       |       |   |       |   |       |       \---fontawesome
+|   |       |       |   |       |   |       |           \---css
+|   |       |       |   |       |   |       +---template
+|   |       |       |   |       |   |       \---template-rtl
+|   |       |       |   |       |   \---plugins
+|   |       |       |   |       |       \---fontawesome
+|   |       |       |   |       |           \---css
+|   |       |       |   |       |               +---assets
+|   |       |       |   |       |               |   +---css
+|   |       |       |   |       |               |   |   +---assets
+|   |       |       |   |       |               |   |   |   +---css
+|   |       |       |   |       |               |   |   |   +---img
+|   |       |       |   |       |               |   |   |   +---js
+|   |       |       |   |       |               |   |   |   \---plugins
+|   |       |       |   |       |               |   |   |       \---fontawesome
+|   |       |       |   |       |               |   |   |           \---css
+|   |       |       |   |       |               |   |   +---template
+|   |       |       |   |       |               |   |   \---template-rtl
+|   |       |       |   |       |               |   +---img
+|   |       |       |   |       |               |   |   +---assets
+|   |       |       |   |       |               |   |   |   +---css
+|   |       |       |   |       |               |   |   |   +---img
+|   |       |       |   |       |               |   |   |   +---js
+|   |       |       |   |       |               |   |   |   \---plugins
+|   |       |       |   |       |               |   |   |       \---fontawesome
+|   |       |       |   |       |               |   |   |           \---css
+|   |       |       |   |       |               |   |   +---template
+|   |       |       |   |       |               |   |   \---template-rtl
+|   |       |       |   |       |               |   +---js
+|   |       |       |   |       |               |   |   +---assets
+|   |       |       |   |       |               |   |   |   +---css
+|   |       |       |   |       |               |   |   |   +---img
+|   |       |       |   |       |               |   |   |   +---js
+|   |       |       |   |       |               |   |   |   \---plugins
+|   |       |       |   |       |               |   |   |       \---fontawesome
+|   |       |       |   |       |               |   |   |           \---css
+|   |       |       |   |       |               |   |   +---template
+|   |       |       |   |       |               |   |   \---template-rtl
+|   |       |       |   |       |               |   \---plugins
+|   |       |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |               |           \---css
+|   |       |       |   |       |               |               +---assets
+|   |       |       |   |       |               |               |   +---css
+|   |       |       |   |       |               |               |   +---img
+|   |       |       |   |       |               |               |   +---js
+|   |       |       |   |       |               |               |   \---plugins
+|   |       |       |   |       |               |               |       \---fontawesome
+|   |       |       |   |       |               |               |           \---css
+|   |       |       |   |       |               |               +---template
+|   |       |       |   |       |               |               \---template-rtl
+|   |       |       |   |       |               +---template
+|   |       |       |   |       |               |   +---assets
+|   |       |       |   |       |               |   |   +---css
+|   |       |       |   |       |               |   |   +---img
+|   |       |       |   |       |               |   |   +---js
+|   |       |       |   |       |               |   |   \---plugins
+|   |       |       |   |       |               |   |       \---fontawesome
+|   |       |       |   |       |               |   |           \---css
+|   |       |       |   |       |               |   +---template
+|   |       |       |   |       |               |   \---template-rtl
+|   |       |       |   |       |               \---template-rtl
+|   |       |       |   |       |                   +---assets
+|   |       |       |   |       |                   |   +---css
+|   |       |       |   |       |                   |   +---img
+|   |       |       |   |       |                   |   +---js
+|   |       |       |   |       |                   |   \---plugins
+|   |       |       |   |       |                   |       \---fontawesome
+|   |       |       |   |       |                   |           \---css
+|   |       |       |   |       |                   +---template
+|   |       |       |   |       |                   \---template-rtl
+|   |       |       |   |       +---template
+|   |       |       |   |       |   +---assets
+|   |       |       |   |       |   |   +---css
+|   |       |       |   |       |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |           \---css
+|   |       |       |   |       |   |   |   +---template
+|   |       |       |   |       |   |   |   \---template-rtl
+|   |       |       |   |       |   |   +---img
+|   |       |       |   |       |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |           \---css
+|   |       |       |   |       |   |   |   +---template
+|   |       |       |   |       |   |   |   \---template-rtl
+|   |       |       |   |       |   |   +---js
+|   |       |       |   |       |   |   |   +---assets
+|   |       |       |   |       |   |   |   |   +---css
+|   |       |       |   |       |   |   |   |   +---img
+|   |       |       |   |       |   |   |   |   +---js
+|   |       |       |   |       |   |   |   |   \---plugins
+|   |       |       |   |       |   |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |   |           \---css
+|   |       |       |   |       |   |   |   +---template
+|   |       |       |   |       |   |   |   \---template-rtl
+|   |       |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |           \---css
+|   |       |       |   |       |   |               +---assets
+|   |       |       |   |       |   |               |   +---css
+|   |       |       |   |       |   |               |   +---img
+|   |       |       |   |       |   |               |   +---js
+|   |       |       |   |       |   |               |   \---plugins
+|   |       |       |   |       |   |               |       \---fontawesome
+|   |       |       |   |       |   |               |           \---css
+|   |       |       |   |       |   |               +---template
+|   |       |       |   |       |   |               \---template-rtl
+|   |       |       |   |       |   +---template
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   \---template-rtl
+|   |       |       |   |       |       +---assets
+|   |       |       |   |       |       |   +---css
+|   |       |       |   |       |       |   +---img
+|   |       |       |   |       |       |   +---js
+|   |       |       |   |       |       |   \---plugins
+|   |       |       |   |       |       |       \---fontawesome
+|   |       |       |   |       |       |           \---css
+|   |       |       |   |       |       +---template
+|   |       |       |   |       |       \---template-rtl
+|   |       |       |   |       \---template-rtl
+|   |       |       |   |           +---assets
+|   |       |       |   |           |   +---css
+|   |       |       |   |           |   |   +---assets
+|   |       |       |   |           |   |   |   +---css
+|   |       |       |   |           |   |   |   +---img
+|   |       |       |   |           |   |   |   +---js
+|   |       |       |   |           |   |   |   \---plugins
+|   |       |       |   |           |   |   |       \---fontawesome
+|   |       |       |   |           |   |   |           \---css
+|   |       |       |   |           |   |   +---template
+|   |       |       |   |           |   |   \---template-rtl
+|   |       |       |   |           |   +---img
+|   |       |       |   |           |   |   +---assets
+|   |       |       |   |           |   |   |   +---css
+|   |       |       |   |           |   |   |   +---img
+|   |       |       |   |           |   |   |   +---js
+|   |       |       |   |           |   |   |   \---plugins
+|   |       |       |   |           |   |   |       \---fontawesome
+|   |       |       |   |           |   |   |           \---css
+|   |       |       |   |           |   |   +---template
+|   |       |       |   |           |   |   \---template-rtl
+|   |       |       |   |           |   +---js
+|   |       |       |   |           |   |   +---assets
+|   |       |       |   |           |   |   |   +---css
+|   |       |       |   |           |   |   |   +---img
+|   |       |       |   |           |   |   |   +---js
+|   |       |       |   |           |   |   |   \---plugins
+|   |       |       |   |           |   |   |       \---fontawesome
+|   |       |       |   |           |   |   |           \---css
+|   |       |       |   |           |   |   +---template
+|   |       |       |   |           |   |   \---template-rtl
+|   |       |       |   |           |   \---plugins
+|   |       |       |   |           |       \---fontawesome
+|   |       |       |   |           |           \---css
+|   |       |       |   |           |               +---assets
+|   |       |       |   |           |               |   +---css
+|   |       |       |   |           |               |   +---img
+|   |       |       |   |           |               |   +---js
+|   |       |       |   |           |               |   \---plugins
+|   |       |       |   |           |               |       \---fontawesome
+|   |       |       |   |           |               |           \---css
+|   |       |       |   |           |               +---template
+|   |       |       |   |           |               \---template-rtl
+|   |       |       |   |           +---template
+|   |       |       |   |           |   +---assets
+|   |       |       |   |           |   |   +---css
+|   |       |       |   |           |   |   +---img
+|   |       |       |   |           |   |   +---js
+|   |       |       |   |           |   |   \---plugins
+|   |       |       |   |           |   |       \---fontawesome
+|   |       |       |   |           |   |           \---css
+|   |       |       |   |           |   +---template
+|   |       |       |   |           |   \---template-rtl
+|   |       |       |   |           \---template-rtl
+|   |       |       |   |               +---assets
+|   |       |       |   |               |   +---css
+|   |       |       |   |               |   +---img
+|   |       |       |   |               |   +---js
+|   |       |       |   |               |   \---plugins
+|   |       |       |   |               |       \---fontawesome
+|   |       |       |   |               |           \---css
+|   |       |       |   |               +---template
+|   |       |       |   |               \---template-rtl
+|   |       |       |   +---ionic
+|   |       |       |   |   \---fonts
+|   |       |       |   |       +---assets
+|   |       |       |   |       |   +---css
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---img
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---js
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   \---plugins
+|   |       |       |   |       |       \---fontawesome
+|   |       |       |   |       |           \---css
+|   |       |       |   |       |               +---assets
+|   |       |       |   |       |               |   +---css
+|   |       |       |   |       |               |   +---img
+|   |       |       |   |       |               |   +---js
+|   |       |       |   |       |               |   \---plugins
+|   |       |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |               |           \---css
+|   |       |       |   |       |               +---template
+|   |       |       |   |       |               \---template-rtl
+|   |       |       |   |       +---template
+|   |       |       |   |       |   +---assets
+|   |       |       |   |       |   |   +---css
+|   |       |       |   |       |   |   +---img
+|   |       |       |   |       |   |   +---js
+|   |       |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |           \---css
+|   |       |       |   |       |   +---template
+|   |       |       |   |       |   \---template-rtl
+|   |       |       |   |       \---template-rtl
+|   |       |       |   |           +---assets
+|   |       |       |   |           |   +---css
+|   |       |       |   |           |   +---img
+|   |       |       |   |           |   +---js
+|   |       |       |   |           |   \---plugins
+|   |       |       |   |           |       \---fontawesome
+|   |       |       |   |           |           \---css
+|   |       |       |   |           +---template
+|   |       |       |   |           \---template-rtl
+|   |       |       |   +---pe7
+|   |       |       |   |   \---fonts
+|   |       |       |   |       +---assets
+|   |       |       |   |       |   +---css
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---img
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---js
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   \---plugins
+|   |       |       |   |       |       \---fontawesome
+|   |       |       |   |       |           \---css
+|   |       |       |   |       |               +---assets
+|   |       |       |   |       |               |   +---css
+|   |       |       |   |       |               |   +---img
+|   |       |       |   |       |               |   +---js
+|   |       |       |   |       |               |   \---plugins
+|   |       |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |               |           \---css
+|   |       |       |   |       |               +---template
+|   |       |       |   |       |               \---template-rtl
+|   |       |       |   |       +---template
+|   |       |       |   |       |   +---assets
+|   |       |       |   |       |   |   +---css
+|   |       |       |   |       |   |   +---img
+|   |       |       |   |       |   |   +---js
+|   |       |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |           \---css
+|   |       |       |   |       |   +---template
+|   |       |       |   |       |   \---template-rtl
+|   |       |       |   |       \---template-rtl
+|   |       |       |   |           +---assets
+|   |       |       |   |           |   +---css
+|   |       |       |   |           |   +---img
+|   |       |       |   |           |   +---js
+|   |       |       |   |           |   \---plugins
+|   |       |       |   |           |       \---fontawesome
+|   |       |       |   |           |           \---css
+|   |       |       |   |           +---template
+|   |       |       |   |           \---template-rtl
+|   |       |       |   +---themify
+|   |       |       |   |   \---fonts
+|   |       |       |   |       +---assets
+|   |       |       |   |       |   +---css
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---img
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---js
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   \---plugins
+|   |       |       |   |       |       \---fontawesome
+|   |       |       |   |       |           \---css
+|   |       |       |   |       |               +---assets
+|   |       |       |   |       |               |   +---css
+|   |       |       |   |       |               |   +---img
+|   |       |       |   |       |               |   +---js
+|   |       |       |   |       |               |   \---plugins
+|   |       |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |               |           \---css
+|   |       |       |   |       |               +---template
+|   |       |       |   |       |               \---template-rtl
+|   |       |       |   |       +---template
+|   |       |       |   |       |   +---assets
+|   |       |       |   |       |   |   +---css
+|   |       |       |   |       |   |   +---img
+|   |       |       |   |       |   |   +---js
+|   |       |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |           \---css
+|   |       |       |   |       |   +---template
+|   |       |       |   |       |   \---template-rtl
+|   |       |       |   |       \---template-rtl
+|   |       |       |   |           +---assets
+|   |       |       |   |           |   +---css
+|   |       |       |   |           |   +---img
+|   |       |       |   |           |   +---js
+|   |       |       |   |           |   \---plugins
+|   |       |       |   |           |       \---fontawesome
+|   |       |       |   |           |           \---css
+|   |       |       |   |           +---template
+|   |       |       |   |           \---template-rtl
+|   |       |       |   +---typicons
+|   |       |       |   |   \---fonts
+|   |       |       |   |       +---assets
+|   |       |       |   |       |   +---css
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---img
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   +---js
+|   |       |       |   |       |   |   +---assets
+|   |       |       |   |       |   |   |   +---css
+|   |       |       |   |       |   |   |   +---img
+|   |       |       |   |       |   |   |   +---js
+|   |       |       |   |       |   |   |   \---plugins
+|   |       |       |   |       |   |   |       \---fontawesome
+|   |       |       |   |       |   |   |           \---css
+|   |       |       |   |       |   |   +---template
+|   |       |       |   |       |   |   \---template-rtl
+|   |       |       |   |       |   \---plugins
+|   |       |       |   |       |       \---fontawesome
+|   |       |       |   |       |           \---css
+|   |       |       |   |       |               +---assets
+|   |       |       |   |       |               |   +---css
+|   |       |       |   |       |               |   +---img
+|   |       |       |   |       |               |   +---js
+|   |       |       |   |       |               |   \---plugins
+|   |       |       |   |       |               |       \---fontawesome
+|   |       |       |   |       |               |           \---css
+|   |       |       |   |       |               +---template
+|   |       |       |   |       |               \---template-rtl
+|   |       |       |   |       +---template
+|   |       |       |   |       |   +---assets
+|   |       |       |   |       |   |   +---css
+|   |       |       |   |       |   |   +---img
+|   |       |       |   |       |   |   +---js
+|   |       |       |   |       |   |   \---plugins
+|   |       |       |   |       |   |       \---fontawesome
+|   |       |       |   |       |   |           \---css
+|   |       |       |   |       |   +---template
+|   |       |       |   |       |   \---template-rtl
+|   |       |       |   |       \---template-rtl
+|   |       |       |   |           +---assets
+|   |       |       |   |           |   +---css
+|   |       |       |   |           |   +---img
+|   |       |       |   |           |   +---js
+|   |       |       |   |           |   \---plugins
+|   |       |       |   |           |       \---fontawesome
+|   |       |       |   |           |           \---css
+|   |       |       |   |           +---template
+|   |       |       |   |           \---template-rtl
+|   |       |       |   \---weather
+|   |       |       |       \---fonts
+|   |       |       |           +---assets
+|   |       |       |           |   +---css
+|   |       |       |           |   |   +---assets
+|   |       |       |           |   |   |   +---css
+|   |       |       |           |   |   |   +---img
+|   |       |       |           |   |   |   +---js
+|   |       |       |           |   |   |   \---plugins
+|   |       |       |           |   |   |       \---fontawesome
+|   |       |       |           |   |   |           \---css
+|   |       |       |           |   |   +---template
+|   |       |       |           |   |   \---template-rtl
+|   |       |       |           |   +---img
+|   |       |       |           |   |   +---assets
+|   |       |       |           |   |   |   +---css
+|   |       |       |           |   |   |   +---img
+|   |       |       |           |   |   |   +---js
+|   |       |       |           |   |   |   \---plugins
+|   |       |       |           |   |   |       \---fontawesome
+|   |       |       |           |   |   |           \---css
+|   |       |       |           |   |   +---template
+|   |       |       |           |   |   \---template-rtl
+|   |       |       |           |   +---js
+|   |       |       |           |   |   +---assets
+|   |       |       |           |   |   |   +---css
+|   |       |       |           |   |   |   +---img
+|   |       |       |           |   |   |   +---js
+|   |       |       |           |   |   |   \---plugins
+|   |       |       |           |   |   |       \---fontawesome
+|   |       |       |           |   |   |           \---css
+|   |       |       |           |   |   +---template
+|   |       |       |           |   |   \---template-rtl
+|   |       |       |           |   \---plugins
+|   |       |       |           |       \---fontawesome
+|   |       |       |           |           \---css
+|   |       |       |           |               +---assets
+|   |       |       |           |               |   +---css
+|   |       |       |           |               |   +---img
+|   |       |       |           |               |   +---js
+|   |       |       |           |               |   \---plugins
+|   |       |       |           |               |       \---fontawesome
+|   |       |       |           |               |           \---css
+|   |       |       |           |               +---template
+|   |       |       |           |               \---template-rtl
+|   |       |       |           +---template
+|   |       |       |           |   +---assets
+|   |       |       |           |   |   +---css
+|   |       |       |           |   |   +---img
+|   |       |       |           |   |   +---js
+|   |       |       |           |   |   \---plugins
+|   |       |       |           |   |       \---fontawesome
+|   |       |       |           |   |           \---css
+|   |       |       |           |   +---template
+|   |       |       |           |   \---template-rtl
+|   |       |       |           \---template-rtl
+|   |       |       |               +---assets
+|   |       |       |               |   +---css
+|   |       |       |               |   +---img
+|   |       |       |               |   +---js
+|   |       |       |               |   \---plugins
+|   |       |       |               |       \---fontawesome
+|   |       |       |               |           \---css
+|   |       |       |               +---template
+|   |       |       |               \---template-rtl
+|   |       |       +---ion-rangeslider
+|   |       |       |   +---css
+|   |       |       |   \---js
+|   |       |       +---lightbox
+|   |       |       +---material
+|   |       |       |   \---fonts
+|   |       |       |       +---assets
+|   |       |       |       |   +---css
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   +---img
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   +---js
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   \---plugins
+|   |       |       |       |       \---fontawesome
+|   |       |       |       |           \---css
+|   |       |       |       |               +---assets
+|   |       |       |       |               |   +---css
+|   |       |       |       |               |   +---img
+|   |       |       |       |               |   +---js
+|   |       |       |       |               |   \---plugins
+|   |       |       |       |               |       \---fontawesome
+|   |       |       |       |               |           \---css
+|   |       |       |       |               +---template
+|   |       |       |       |               \---template-rtl
+|   |       |       |       +---materialdesignicons
+|   |       |       |       |   +---assets
+|   |       |       |       |   |   +---css
+|   |       |       |       |   |   |   +---assets
+|   |       |       |       |   |   |   |   +---css
+|   |       |       |       |   |   |   |   +---img
+|   |       |       |       |   |   |   |   +---js
+|   |       |       |       |   |   |   |   \---plugins
+|   |       |       |       |   |   |   |       \---fontawesome
+|   |       |       |       |   |   |   |           \---css
+|   |       |       |       |   |   |   +---template
+|   |       |       |       |   |   |   \---template-rtl
+|   |       |       |       |   |   +---img
+|   |       |       |       |   |   |   +---assets
+|   |       |       |       |   |   |   |   +---css
+|   |       |       |       |   |   |   |   +---img
+|   |       |       |       |   |   |   |   +---js
+|   |       |       |       |   |   |   |   \---plugins
+|   |       |       |       |   |   |   |       \---fontawesome
+|   |       |       |       |   |   |   |           \---css
+|   |       |       |       |   |   |   +---template
+|   |       |       |       |   |   |   \---template-rtl
+|   |       |       |       |   |   +---js
+|   |       |       |       |   |   |   +---assets
+|   |       |       |       |   |   |   |   +---css
+|   |       |       |       |   |   |   |   +---img
+|   |       |       |       |   |   |   |   +---js
+|   |       |       |       |   |   |   |   \---plugins
+|   |       |       |       |   |   |   |       \---fontawesome
+|   |       |       |       |   |   |   |           \---css
+|   |       |       |       |   |   |   +---template
+|   |       |       |       |   |   |   \---template-rtl
+|   |       |       |       |   |   \---plugins
+|   |       |       |       |   |       \---fontawesome
+|   |       |       |       |   |           \---css
+|   |       |       |       |   |               +---assets
+|   |       |       |       |   |               |   +---css
+|   |       |       |       |   |               |   +---img
+|   |       |       |       |   |               |   +---js
+|   |       |       |       |   |               |   \---plugins
+|   |       |       |       |   |               |       \---fontawesome
+|   |       |       |       |   |               |           \---css
+|   |       |       |       |   |               +---template
+|   |       |       |       |   |               \---template-rtl
+|   |       |       |       |   +---template
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   \---template-rtl
+|   |       |       |       |       +---assets
+|   |       |       |       |       |   +---css
+|   |       |       |       |       |   +---img
+|   |       |       |       |       |   +---js
+|   |       |       |       |       |   \---plugins
+|   |       |       |       |       |       \---fontawesome
+|   |       |       |       |       |           \---css
+|   |       |       |       |       +---template
+|   |       |       |       |       \---template-rtl
+|   |       |       |       +---template
+|   |       |       |       |   +---assets
+|   |       |       |       |   |   +---css
+|   |       |       |       |   |   +---img
+|   |       |       |       |   |   +---js
+|   |       |       |       |   |   \---plugins
+|   |       |       |       |   |       \---fontawesome
+|   |       |       |       |   |           \---css
+|   |       |       |       |   +---template
+|   |       |       |       |   \---template-rtl
+|   |       |       |       \---template-rtl
+|   |       |       |           +---assets
+|   |       |       |           |   +---css
+|   |       |       |           |   +---img
+|   |       |       |           |   +---js
+|   |       |       |           |   \---plugins
+|   |       |       |           |       \---fontawesome
+|   |       |       |           |           \---css
+|   |       |       |           +---template
+|   |       |       |           \---template-rtl
+|   |       |       +---moment
+|   |       |       +---morris
+|   |       |       +---peity
+|   |       |       +---raty
+|   |       |       +---scrollbar
+|   |       |       +---select2
+|   |       |       |   +---css
+|   |       |       |   \---js
+|   |       |       +---simple-calendar
+|   |       |       +---simpleline
+|   |       |       |   \---fonts
+|   |       |       |       +---assets
+|   |       |       |       |   +---css
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   +---img
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   +---js
+|   |       |       |       |   |   +---assets
+|   |       |       |       |   |   |   +---css
+|   |       |       |       |   |   |   +---img
+|   |       |       |       |   |   |   +---js
+|   |       |       |       |   |   |   \---plugins
+|   |       |       |       |   |   |       \---fontawesome
+|   |       |       |       |   |   |           \---css
+|   |       |       |       |   |   +---template
+|   |       |       |       |   |   \---template-rtl
+|   |       |       |       |   \---plugins
+|   |       |       |       |       \---fontawesome
+|   |       |       |       |           \---css
+|   |       |       |       |               +---assets
+|   |       |       |       |               |   +---css
+|   |       |       |       |               |   +---img
+|   |       |       |       |               |   +---js
+|   |       |       |       |               |   \---plugins
+|   |       |       |       |               |       \---fontawesome
+|   |       |       |       |               |           \---css
+|   |       |       |       |               +---template
+|   |       |       |       |               \---template-rtl
+|   |       |       |       +---template
+|   |       |       |       |   +---assets
+|   |       |       |       |   |   +---css
+|   |       |       |       |   |   +---img
+|   |       |       |       |   |   +---js
+|   |       |       |       |   |   \---plugins
+|   |       |       |       |   |       \---fontawesome
+|   |       |       |       |   |           \---css
+|   |       |       |       |   +---template
+|   |       |       |       |   \---template-rtl
+|   |       |       |       \---template-rtl
+|   |       |       |           +---assets
+|   |       |       |           |   +---css
+|   |       |       |           |   +---img
+|   |       |       |           |   +---js
+|   |       |       |           |   \---plugins
+|   |       |       |           |       \---fontawesome
+|   |       |       |           |           \---css
+|   |       |       |           +---template
+|   |       |       |           \---template-rtl
+|   |       |       +---slimscroll
+|   |       |       +---stickynote
+|   |       |       +---summernote
+|   |       |       |   \---font
+|   |       |       +---sweetalert
+|   |       |       +---timeline
+|   |       |       +---toastr
+|   |       |       \---twitter-bootstrap-wizard
+|   |       \---templates
+|   \---test
+|       \---java
+|           \---com
+|               \---vgnit
+|                   \---medical
+\---target
+    +---classes
+    |   +---com
+    |   |   \---vgnit
+    |   |       \---medical
+    |   |           +---aspect
+    |   |           +---controller
+    |   |           +---dto
+    |   |           +---entity
+    |   |           +---repository
+    |   |           +---security_configuration
+    |   |           +---service
+    |   |           |   \---impl
+    |   |           \---utils
+    |   |               \---constants
+    |   +---META-INF
+    |   |   \---maven
+    |   |       \---com.vgnit.medical
+    |   |           \---MEDICAL-PROJECT
+    |   +---static
+    |   |   +---css
+    |   |   +---doctorimages
+    |   |   +---fonts
+    |   |   +---img
+    |   |   |   +---assets
+    |   |   |   |   +---css
+    |   |   |   |   |   +---assets
+    |   |   |   |   |   |   +---css
+    |   |   |   |   |   |   +---img
+    |   |   |   |   |   |   +---js
+    |   |   |   |   |   |   \---plugins
+    |   |   |   |   |   |       \---fontawesome
+    |   |   |   |   |   |           \---css
+    |   |   |   |   |   +---template
+    |   |   |   |   |   \---template-rtl
+    |   |   |   |   +---img
+    |   |   |   |   |   +---assets
+    |   |   |   |   |   |   +---css
+    |   |   |   |   |   |   +---img
+    |   |   |   |   |   |   +---js
+    |   |   |   |   |   |   \---plugins
+    |   |   |   |   |   |       \---fontawesome
+    |   |   |   |   |   |           \---css
+    |   |   |   |   |   +---template
+    |   |   |   |   |   \---template-rtl
+    |   |   |   |   +---js
+    |   |   |   |   |   +---assets
+    |   |   |   |   |   |   +---css
+    |   |   |   |   |   |   +---img
+    |   |   |   |   |   |   +---js
+    |   |   |   |   |   |   \---plugins
+    |   |   |   |   |   |       \---fontawesome
+    |   |   |   |   |   |           \---css
+    |   |   |   |   |   +---template
+    |   |   |   |   |   \---template-rtl
+    |   |   |   |   \---plugins
+    |   |   |   |       \---fontawesome
+    |   |   |   |           \---css
+    |   |   |   |               +---assets
+    |   |   |   |               |   +---css
+    |   |   |   |               |   +---img
+    |   |   |   |               |   +---js
+    |   |   |   |               |   \---plugins
+    |   |   |   |               |       \---fontawesome
+    |   |   |   |               |           \---css
+    |   |   |   |               +---template
+    |   |   |   |               \---template-rtl
+    |   |   |   +---category
+    |   |   |   +---icons
+    |   |   |   +---profiles
+    |   |   |   +---template
+    |   |   |   |   +---assets
+    |   |   |   |   |   +---css
+    |   |   |   |   |   +---img
+    |   |   |   |   |   +---js
+    |   |   |   |   |   \---plugins
+    |   |   |   |   |       \---fontawesome
+    |   |   |   |   |           \---css
+    |   |   |   |   +---template
+    |   |   |   |   \---template-rtl
+    |   |   |   \---template-rtl
+    |   |   |       +---assets
+    |   |   |       |   +---css
+    |   |   |       |   +---img
+    |   |   |       |   +---js
+    |   |   |       |   \---plugins
+    |   |   |       |       \---fontawesome
+    |   |   |       |           \---css
+    |   |   |       +---template
+    |   |   |       \---template-rtl
+    |   |   +---js
+    |   |   \---plugins
+    |   |       +---alertify
+    |   |       +---apexchart
+    |   |       +---bootstrap
+    |   |       |   +---css
+    |   |       |   \---js
+    |   |       +---bootstrap-tagsinput
+    |   |       |   \---js
+    |   |       +---c3-chart
+    |   |       +---chartjs
+    |   |       +---clipboard
+    |   |       +---countup
+    |   |       +---datatables
+    |   |       +---daterangepicker
+    |   |       +---dragula
+    |   |       |   +---css
+    |   |       |   \---js
+    |   |       +---feather
+    |   |       |   \---fonts
+    |   |       +---flot
+    |   |       +---fontawesome
+    |   |       |   +---css
+    |   |       |   \---webfonts
+    |   |       +---fullcalendar
+    |   |       +---icons
+    |   |       |   +---feather
+    |   |       |   |   \---fonts
+    |   |       |   |       +---assets
+    |   |       |   |       |   +---css
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---img
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---js
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   \---plugins
+    |   |       |   |       |       \---fontawesome
+    |   |       |   |       |           \---css
+    |   |       |   |       |               +---assets
+    |   |       |   |       |               |   +---css
+    |   |       |   |       |               |   +---img
+    |   |       |   |       |               |   +---js
+    |   |       |   |       |               |   \---plugins
+    |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |               |           \---css
+    |   |       |   |       |               +---template
+    |   |       |   |       |               \---template-rtl
+    |   |       |   |       +---template
+    |   |       |   |       |   +---assets
+    |   |       |   |       |   |   +---css
+    |   |       |   |       |   |   +---img
+    |   |       |   |       |   |   +---js
+    |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |           \---css
+    |   |       |   |       |   +---template
+    |   |       |   |       |   \---template-rtl
+    |   |       |   |       \---template-rtl
+    |   |       |   |           +---assets
+    |   |       |   |           |   +---css
+    |   |       |   |           |   +---img
+    |   |       |   |           |   +---js
+    |   |       |   |           |   \---plugins
+    |   |       |   |           |       \---fontawesome
+    |   |       |   |           |           \---css
+    |   |       |   |           +---template
+    |   |       |   |           \---template-rtl
+    |   |       |   +---flags
+    |   |       |   |   \---flags
+    |   |       |   |       +---assets
+    |   |       |   |       |   +---css
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |               +---assets
+    |   |       |   |       |   |   |   |   |               |   +---css
+    |   |       |   |       |   |   |   |   |               |   +---img
+    |   |       |   |       |   |   |   |   |               |   \---plugins
+    |   |       |   |       |   |   |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |   |   |               |           \---css
+    |   |       |   |       |   |   |   |   |               +---template
+    |   |       |   |       |   |   |   |   |               \---template-rtl
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |               +---assets
+    |   |       |   |       |   |   |   |   |               |   +---css
+    |   |       |   |       |   |   |   |   |               |   +---img
+    |   |       |   |       |   |   |   |   |               |   +---js
+    |   |       |   |       |   |   |   |   |               |   \---plugins
+    |   |       |   |       |   |   |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |   |   |               |           \---css
+    |   |       |   |       |   |   |   |   |               +---template
+    |   |       |   |       |   |   |   |   |               \---template-rtl
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |       +---assets
+    |   |       |   |       |   |   |   |       |   +---css
+    |   |       |   |       |   |   |   |       |   +---img
+    |   |       |   |       |   |   |   |       |   +---js
+    |   |       |   |       |   |   |   |       |   \---plugins
+    |   |       |   |       |   |   |   |       |       \---fontawesome
+    |   |       |   |       |   |   |   |       |           \---css
+    |   |       |   |       |   |   |   |       +---template
+    |   |       |   |       |   |   |   |       \---template-rtl
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   |               +---assets
+    |   |       |   |       |   |   |               |   +---css
+    |   |       |   |       |   |   |               |   +---img
+    |   |       |   |       |   |   |               |   +---js
+    |   |       |   |       |   |   |               |   \---plugins
+    |   |       |   |       |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |               |           \---css
+    |   |       |   |       |   |   |               +---template
+    |   |       |   |       |   |   |               \---template-rtl
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   |   +---assets
+    |   |       |   |       |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |           \---css
+    |   |       |   |       |   |   |   +---template
+    |   |       |   |       |   |   |   \---template-rtl
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   |       +---assets
+    |   |       |   |       |   |       |   +---css
+    |   |       |   |       |   |       |   +---img
+    |   |       |   |       |   |       |   +---js
+    |   |       |   |       |   |       |   \---plugins
+    |   |       |   |       |   |       |       \---fontawesome
+    |   |       |   |       |   |       |           \---css
+    |   |       |   |       |   |       +---template
+    |   |       |   |       |   |       \---template-rtl
+    |   |       |   |       |   +---img
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |               +---assets
+    |   |       |   |       |   |   |   |   |               |   +---css
+    |   |       |   |       |   |   |   |   |               |   +---img
+    |   |       |   |       |   |   |   |   |               |   +---js
+    |   |       |   |       |   |   |   |   |               |   \---plugins
+    |   |       |   |       |   |   |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |   |   |               |           \---css
+    |   |       |   |       |   |   |   |   |               +---template
+    |   |       |   |       |   |   |   |   |               \---template-rtl
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |       +---assets
+    |   |       |   |       |   |   |   |       |   +---css
+    |   |       |   |       |   |   |   |       |   +---img
+    |   |       |   |       |   |   |   |       |   +---js
+    |   |       |   |       |   |   |   |       |   \---plugins
+    |   |       |   |       |   |   |   |       |       \---fontawesome
+    |   |       |   |       |   |   |   |       |           \---css
+    |   |       |   |       |   |   |   |       +---template
+    |   |       |   |       |   |   |   |       \---template-rtl
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |               +---assets
+    |   |       |   |       |   |   |   |   |               |   +---css
+    |   |       |   |       |   |   |   |   |               |   +---img
+    |   |       |   |       |   |   |   |   |               |   +---js
+    |   |       |   |       |   |   |   |   |               |   \---plugins
+    |   |       |   |       |   |   |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |   |   |               |           \---css
+    |   |       |   |       |   |   |   |   |               +---template
+    |   |       |   |       |   |   |   |   |               \---template-rtl
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |       +---assets
+    |   |       |   |       |   |   |   |       |   +---css
+    |   |       |   |       |   |   |   |       |   +---img
+    |   |       |   |       |   |   |   |       |   +---js
+    |   |       |   |       |   |   |   |       |   \---plugins
+    |   |       |   |       |   |   |   |       |       \---fontawesome
+    |   |       |   |       |   |   |   |       |           \---css
+    |   |       |   |       |   |   |   |       +---template
+    |   |       |   |       |   |   |   |       \---template-rtl
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |               +---assets
+    |   |       |   |       |   |   |   |   |               |   +---css
+    |   |       |   |       |   |   |   |   |               |   +---img
+    |   |       |   |       |   |   |   |   |               |   +---js
+    |   |       |   |       |   |   |   |   |               |   \---plugins
+    |   |       |   |       |   |   |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |   |   |               |           \---css
+    |   |       |   |       |   |   |   |   |               +---template
+    |   |       |   |       |   |   |   |   |               \---template-rtl
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |       +---assets
+    |   |       |   |       |   |   |   |       |   +---css
+    |   |       |   |       |   |   |   |       |   +---img
+    |   |       |   |       |   |   |   |       |   +---js
+    |   |       |   |       |   |   |   |       |   \---plugins
+    |   |       |   |       |   |   |   |       |       \---fontawesome
+    |   |       |   |       |   |   |   |       |           \---css
+    |   |       |   |       |   |   |   |       +---template
+    |   |       |   |       |   |   |   |       \---template-rtl
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   |               +---assets
+    |   |       |   |       |   |   |               |   +---css
+    |   |       |   |       |   |   |               |   |   +---assets
+    |   |       |   |       |   |   |               |   |   |   +---css
+    |   |       |   |       |   |   |               |   |   |   +---img
+    |   |       |   |       |   |   |               |   |   |   +---js
+    |   |       |   |       |   |   |               |   |   |   \---plugins
+    |   |       |   |       |   |   |               |   |   |       \---fontawesome
+    |   |       |   |       |   |   |               |   |   |           \---css
+    |   |       |   |       |   |   |               |   |   +---template
+    |   |       |   |       |   |   |               |   |   \---template-rtl
+    |   |       |   |       |   |   |               |   +---img
+    |   |       |   |       |   |   |               |   |   +---assets
+    |   |       |   |       |   |   |               |   |   |   +---css
+    |   |       |   |       |   |   |               |   |   |   +---img
+    |   |       |   |       |   |   |               |   |   |   +---js
+    |   |       |   |       |   |   |               |   |   |   \---plugins
+    |   |       |   |       |   |   |               |   |   |       \---fontawesome
+    |   |       |   |       |   |   |               |   |   |           \---css
+    |   |       |   |       |   |   |               |   |   +---template
+    |   |       |   |       |   |   |               |   |   \---template-rtl
+    |   |       |   |       |   |   |               |   +---js
+    |   |       |   |       |   |   |               |   |   +---assets
+    |   |       |   |       |   |   |               |   |   |   +---css
+    |   |       |   |       |   |   |               |   |   |   +---img
+    |   |       |   |       |   |   |               |   |   |   +---js
+    |   |       |   |       |   |   |               |   |   |   \---plugins
+    |   |       |   |       |   |   |               |   |   |       \---fontawesome
+    |   |       |   |       |   |   |               |   |   |           \---css
+    |   |       |   |       |   |   |               |   |   +---template
+    |   |       |   |       |   |   |               |   |   \---template-rtl
+    |   |       |   |       |   |   |               |   \---plugins
+    |   |       |   |       |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |               |           \---css
+    |   |       |   |       |   |   |               |               +---assets
+    |   |       |   |       |   |   |               |               |   +---css
+    |   |       |   |       |   |   |               |               |   +---img
+    |   |       |   |       |   |   |               |               |   +---js
+    |   |       |   |       |   |   |               |               |   \---plugins
+    |   |       |   |       |   |   |               |               |       \---fontawesome
+    |   |       |   |       |   |   |               |               |           \---css
+    |   |       |   |       |   |   |               |               +---template
+    |   |       |   |       |   |   |               |               \---template-rtl
+    |   |       |   |       |   |   |               +---template
+    |   |       |   |       |   |   |               |   +---assets
+    |   |       |   |       |   |   |               |   |   +---css
+    |   |       |   |       |   |   |               |   |   +---img
+    |   |       |   |       |   |   |               |   |   +---js
+    |   |       |   |       |   |   |               |   |   \---plugins
+    |   |       |   |       |   |   |               |   |       \---fontawesome
+    |   |       |   |       |   |   |               |   |           \---css
+    |   |       |   |       |   |   |               |   +---template
+    |   |       |   |       |   |   |               |   \---template-rtl
+    |   |       |   |       |   |   |               \---template-rtl
+    |   |       |   |       |   |   |                   +---assets
+    |   |       |   |       |   |   |                   |   +---css
+    |   |       |   |       |   |   |                   |   +---img
+    |   |       |   |       |   |   |                   |   +---js
+    |   |       |   |       |   |   |                   |   \---plugins
+    |   |       |   |       |   |   |                   |       \---fontawesome
+    |   |       |   |       |   |   |                   |           \---css
+    |   |       |   |       |   |   |                   +---template
+    |   |       |   |       |   |   |                   \---template-rtl
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   |   +---assets
+    |   |       |   |       |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |           \---css
+    |   |       |   |       |   |   |   |               +---assets
+    |   |       |   |       |   |   |   |               |   +---css
+    |   |       |   |       |   |   |   |               |   +---img
+    |   |       |   |       |   |   |   |               |   +---js
+    |   |       |   |       |   |   |   |               |   \---plugins
+    |   |       |   |       |   |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |   |               |           \---css
+    |   |       |   |       |   |   |   |               +---template
+    |   |       |   |       |   |   |   |               \---template-rtl
+    |   |       |   |       |   |   |   +---template
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   \---template-rtl
+    |   |       |   |       |   |   |       +---assets
+    |   |       |   |       |   |   |       |   +---css
+    |   |       |   |       |   |   |       |   +---img
+    |   |       |   |       |   |   |       |   +---js
+    |   |       |   |       |   |   |       |   \---plugins
+    |   |       |   |       |   |   |       |       \---fontawesome
+    |   |       |   |       |   |   |       |           \---css
+    |   |       |   |       |   |   |       +---template
+    |   |       |   |       |   |   |       \---template-rtl
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   |       +---assets
+    |   |       |   |       |   |       |   +---css
+    |   |       |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |       |   |   +---template
+    |   |       |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   |       |   +---img
+    |   |       |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |       |   |   +---template
+    |   |       |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   |       |   +---js
+    |   |       |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |       |   |   +---template
+    |   |       |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   |       |   \---plugins
+    |   |       |   |       |   |       |       \---fontawesome
+    |   |       |   |       |   |       |           \---css
+    |   |       |   |       |   |       |               +---assets
+    |   |       |   |       |   |       |               |   +---css
+    |   |       |   |       |   |       |               |   +---img
+    |   |       |   |       |   |       |               |   +---js
+    |   |       |   |       |   |       |               |   \---plugins
+    |   |       |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |   |       |               |           \---css
+    |   |       |   |       |   |       |               +---template
+    |   |       |   |       |   |       |               \---template-rtl
+    |   |       |   |       |   |       +---template
+    |   |       |   |       |   |       |   +---assets
+    |   |       |   |       |   |       |   |   +---css
+    |   |       |   |       |   |       |   |   +---img
+    |   |       |   |       |   |       |   |   +---js
+    |   |       |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |       |   |           \---css
+    |   |       |   |       |   |       |   +---template
+    |   |       |   |       |   |       |   \---template-rtl
+    |   |       |   |       |   |       \---template-rtl
+    |   |       |   |       |   |           +---assets
+    |   |       |   |       |   |           |   +---css
+    |   |       |   |       |   |           |   +---img
+    |   |       |   |       |   |           |   +---js
+    |   |       |   |       |   |           |   \---plugins
+    |   |       |   |       |   |           |       \---fontawesome
+    |   |       |   |       |   |           |           \---css
+    |   |       |   |       |   |           +---template
+    |   |       |   |       |   |           \---template-rtl
+    |   |       |   |       |   +---js
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   |   +---assets
+    |   |       |   |       |   |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |   |           \---css
+    |   |       |   |       |   |   |   |   +---template
+    |   |       |   |       |   |   |   |   \---template-rtl
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   |               +---assets
+    |   |       |   |       |   |   |               |   +---css
+    |   |       |   |       |   |   |               |   +---img
+    |   |       |   |       |   |   |               |   +---js
+    |   |       |   |       |   |   |               |   \---plugins
+    |   |       |   |       |   |   |               |       \---fontawesome
+    |   |       |   |       |   |   |               |           \---css
+    |   |       |   |       |   |   |               +---template
+    |   |       |   |       |   |   |               \---template-rtl
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   |   +---assets
+    |   |       |   |       |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |           \---css
+    |   |       |   |       |   |   |   +---template
+    |   |       |   |       |   |   |   \---template-rtl
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   |       +---assets
+    |   |       |   |       |   |       |   +---css
+    |   |       |   |       |   |       |   +---img
+    |   |       |   |       |   |       |   +---js
+    |   |       |   |       |   |       |   \---plugins
+    |   |       |   |       |   |       |       \---fontawesome
+    |   |       |   |       |   |       |           \---css
+    |   |       |   |       |   |       +---template
+    |   |       |   |       |   |       \---template-rtl
+    |   |       |   |       |   \---plugins
+    |   |       |   |       |       \---fontawesome
+    |   |       |   |       |           \---css
+    |   |       |   |       |               +---assets
+    |   |       |   |       |               |   +---css
+    |   |       |   |       |               |   |   +---assets
+    |   |       |   |       |               |   |   |   +---css
+    |   |       |   |       |               |   |   |   +---img
+    |   |       |   |       |               |   |   |   +---js
+    |   |       |   |       |               |   |   |   \---plugins
+    |   |       |   |       |               |   |   |       \---fontawesome
+    |   |       |   |       |               |   |   |           \---css
+    |   |       |   |       |               |   |   +---template
+    |   |       |   |       |               |   |   \---template-rtl
+    |   |       |   |       |               |   +---img
+    |   |       |   |       |               |   |   +---assets
+    |   |       |   |       |               |   |   |   +---css
+    |   |       |   |       |               |   |   |   +---img
+    |   |       |   |       |               |   |   |   +---js
+    |   |       |   |       |               |   |   |   \---plugins
+    |   |       |   |       |               |   |   |       \---fontawesome
+    |   |       |   |       |               |   |   |           \---css
+    |   |       |   |       |               |   |   +---template
+    |   |       |   |       |               |   |   \---template-rtl
+    |   |       |   |       |               |   +---js
+    |   |       |   |       |               |   |   +---assets
+    |   |       |   |       |               |   |   |   +---css
+    |   |       |   |       |               |   |   |   +---img
+    |   |       |   |       |               |   |   |   +---js
+    |   |       |   |       |               |   |   |   \---plugins
+    |   |       |   |       |               |   |   |       \---fontawesome
+    |   |       |   |       |               |   |   |           \---css
+    |   |       |   |       |               |   |   +---template
+    |   |       |   |       |               |   |   \---template-rtl
+    |   |       |   |       |               |   \---plugins
+    |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |               |           \---css
+    |   |       |   |       |               |               +---assets
+    |   |       |   |       |               |               |   +---css
+    |   |       |   |       |               |               |   +---img
+    |   |       |   |       |               |               |   +---js
+    |   |       |   |       |               |               |   \---plugins
+    |   |       |   |       |               |               |       \---fontawesome
+    |   |       |   |       |               |               |           \---css
+    |   |       |   |       |               |               +---template
+    |   |       |   |       |               |               \---template-rtl
+    |   |       |   |       |               +---template
+    |   |       |   |       |               |   +---assets
+    |   |       |   |       |               |   |   +---css
+    |   |       |   |       |               |   |   +---img
+    |   |       |   |       |               |   |   +---js
+    |   |       |   |       |               |   |   \---plugins
+    |   |       |   |       |               |   |       \---fontawesome
+    |   |       |   |       |               |   |           \---css
+    |   |       |   |       |               |   +---template
+    |   |       |   |       |               |   \---template-rtl
+    |   |       |   |       |               \---template-rtl
+    |   |       |   |       |                   +---assets
+    |   |       |   |       |                   |   +---css
+    |   |       |   |       |                   |   +---img
+    |   |       |   |       |                   |   +---js
+    |   |       |   |       |                   |   \---plugins
+    |   |       |   |       |                   |       \---fontawesome
+    |   |       |   |       |                   |           \---css
+    |   |       |   |       |                   +---template
+    |   |       |   |       |                   \---template-rtl
+    |   |       |   |       +---template
+    |   |       |   |       |   +---assets
+    |   |       |   |       |   |   +---css
+    |   |       |   |       |   |   |   +---assets
+    |   |       |   |       |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |           \---css
+    |   |       |   |       |   |   |   +---template
+    |   |       |   |       |   |   |   \---template-rtl
+    |   |       |   |       |   |   +---img
+    |   |       |   |       |   |   |   +---assets
+    |   |       |   |       |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |           \---css
+    |   |       |   |       |   |   |   +---template
+    |   |       |   |       |   |   |   \---template-rtl
+    |   |       |   |       |   |   +---js
+    |   |       |   |       |   |   |   +---assets
+    |   |       |   |       |   |   |   |   +---css
+    |   |       |   |       |   |   |   |   +---img
+    |   |       |   |       |   |   |   |   +---js
+    |   |       |   |       |   |   |   |   \---plugins
+    |   |       |   |       |   |   |   |       \---fontawesome
+    |   |       |   |       |   |   |   |           \---css
+    |   |       |   |       |   |   |   +---template
+    |   |       |   |       |   |   |   \---template-rtl
+    |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |           \---css
+    |   |       |   |       |   |               +---assets
+    |   |       |   |       |   |               |   +---css
+    |   |       |   |       |   |               |   +---img
+    |   |       |   |       |   |               |   +---js
+    |   |       |   |       |   |               |   \---plugins
+    |   |       |   |       |   |               |       \---fontawesome
+    |   |       |   |       |   |               |           \---css
+    |   |       |   |       |   |               +---template
+    |   |       |   |       |   |               \---template-rtl
+    |   |       |   |       |   +---template
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   \---template-rtl
+    |   |       |   |       |       +---assets
+    |   |       |   |       |       |   +---css
+    |   |       |   |       |       |   +---img
+    |   |       |   |       |       |   +---js
+    |   |       |   |       |       |   \---plugins
+    |   |       |   |       |       |       \---fontawesome
+    |   |       |   |       |       |           \---css
+    |   |       |   |       |       +---template
+    |   |       |   |       |       \---template-rtl
+    |   |       |   |       \---template-rtl
+    |   |       |   |           +---assets
+    |   |       |   |           |   +---css
+    |   |       |   |           |   |   +---assets
+    |   |       |   |           |   |   |   +---css
+    |   |       |   |           |   |   |   +---img
+    |   |       |   |           |   |   |   +---js
+    |   |       |   |           |   |   |   \---plugins
+    |   |       |   |           |   |   |       \---fontawesome
+    |   |       |   |           |   |   |           \---css
+    |   |       |   |           |   |   +---template
+    |   |       |   |           |   |   \---template-rtl
+    |   |       |   |           |   +---img
+    |   |       |   |           |   |   +---assets
+    |   |       |   |           |   |   |   +---css
+    |   |       |   |           |   |   |   +---img
+    |   |       |   |           |   |   |   +---js
+    |   |       |   |           |   |   |   \---plugins
+    |   |       |   |           |   |   |       \---fontawesome
+    |   |       |   |           |   |   |           \---css
+    |   |       |   |           |   |   +---template
+    |   |       |   |           |   |   \---template-rtl
+    |   |       |   |           |   +---js
+    |   |       |   |           |   |   +---assets
+    |   |       |   |           |   |   |   +---css
+    |   |       |   |           |   |   |   +---img
+    |   |       |   |           |   |   |   +---js
+    |   |       |   |           |   |   |   \---plugins
+    |   |       |   |           |   |   |       \---fontawesome
+    |   |       |   |           |   |   |           \---css
+    |   |       |   |           |   |   +---template
+    |   |       |   |           |   |   \---template-rtl
+    |   |       |   |           |   \---plugins
+    |   |       |   |           |       \---fontawesome
+    |   |       |   |           |           \---css
+    |   |       |   |           |               +---assets
+    |   |       |   |           |               |   +---css
+    |   |       |   |           |               |   +---img
+    |   |       |   |           |               |   +---js
+    |   |       |   |           |               |   \---plugins
+    |   |       |   |           |               |       \---fontawesome
+    |   |       |   |           |               |           \---css
+    |   |       |   |           |               +---template
+    |   |       |   |           |               \---template-rtl
+    |   |       |   |           +---template
+    |   |       |   |           |   +---assets
+    |   |       |   |           |   |   +---css
+    |   |       |   |           |   |   +---img
+    |   |       |   |           |   |   +---js
+    |   |       |   |           |   |   \---plugins
+    |   |       |   |           |   |       \---fontawesome
+    |   |       |   |           |   |           \---css
+    |   |       |   |           |   +---template
+    |   |       |   |           |   \---template-rtl
+    |   |       |   |           \---template-rtl
+    |   |       |   |               +---assets
+    |   |       |   |               |   +---css
+    |   |       |   |               |   +---img
+    |   |       |   |               |   +---js
+    |   |       |   |               |   \---plugins
+    |   |       |   |               |       \---fontawesome
+    |   |       |   |               |           \---css
+    |   |       |   |               +---template
+    |   |       |   |               \---template-rtl
+    |   |       |   +---ionic
+    |   |       |   |   \---fonts
+    |   |       |   |       +---assets
+    |   |       |   |       |   +---css
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---img
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---js
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   \---plugins
+    |   |       |   |       |       \---fontawesome
+    |   |       |   |       |           \---css
+    |   |       |   |       |               +---assets
+    |   |       |   |       |               |   +---css
+    |   |       |   |       |               |   +---img
+    |   |       |   |       |               |   +---js
+    |   |       |   |       |               |   \---plugins
+    |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |               |           \---css
+    |   |       |   |       |               +---template
+    |   |       |   |       |               \---template-rtl
+    |   |       |   |       +---template
+    |   |       |   |       |   +---assets
+    |   |       |   |       |   |   +---css
+    |   |       |   |       |   |   +---img
+    |   |       |   |       |   |   +---js
+    |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |           \---css
+    |   |       |   |       |   +---template
+    |   |       |   |       |   \---template-rtl
+    |   |       |   |       \---template-rtl
+    |   |       |   |           +---assets
+    |   |       |   |           |   +---css
+    |   |       |   |           |   +---img
+    |   |       |   |           |   +---js
+    |   |       |   |           |   \---plugins
+    |   |       |   |           |       \---fontawesome
+    |   |       |   |           |           \---css
+    |   |       |   |           +---template
+    |   |       |   |           \---template-rtl
+    |   |       |   +---pe7
+    |   |       |   |   \---fonts
+    |   |       |   |       +---assets
+    |   |       |   |       |   +---css
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---img
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---js
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   \---plugins
+    |   |       |   |       |       \---fontawesome
+    |   |       |   |       |           \---css
+    |   |       |   |       |               +---assets
+    |   |       |   |       |               |   +---css
+    |   |       |   |       |               |   +---img
+    |   |       |   |       |               |   +---js
+    |   |       |   |       |               |   \---plugins
+    |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |               |           \---css
+    |   |       |   |       |               +---template
+    |   |       |   |       |               \---template-rtl
+    |   |       |   |       +---template
+    |   |       |   |       |   +---assets
+    |   |       |   |       |   |   +---css
+    |   |       |   |       |   |   +---img
+    |   |       |   |       |   |   +---js
+    |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |           \---css
+    |   |       |   |       |   +---template
+    |   |       |   |       |   \---template-rtl
+    |   |       |   |       \---template-rtl
+    |   |       |   |           +---assets
+    |   |       |   |           |   +---css
+    |   |       |   |           |   +---img
+    |   |       |   |           |   +---js
+    |   |       |   |           |   \---plugins
+    |   |       |   |           |       \---fontawesome
+    |   |       |   |           |           \---css
+    |   |       |   |           +---template
+    |   |       |   |           \---template-rtl
+    |   |       |   +---themify
+    |   |       |   |   \---fonts
+    |   |       |   |       +---assets
+    |   |       |   |       |   +---css
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---img
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---js
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   \---plugins
+    |   |       |   |       |       \---fontawesome
+    |   |       |   |       |           \---css
+    |   |       |   |       |               +---assets
+    |   |       |   |       |               |   +---css
+    |   |       |   |       |               |   +---img
+    |   |       |   |       |               |   +---js
+    |   |       |   |       |               |   \---plugins
+    |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |               |           \---css
+    |   |       |   |       |               +---template
+    |   |       |   |       |               \---template-rtl
+    |   |       |   |       +---template
+    |   |       |   |       |   +---assets
+    |   |       |   |       |   |   +---css
+    |   |       |   |       |   |   +---img
+    |   |       |   |       |   |   +---js
+    |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |           \---css
+    |   |       |   |       |   +---template
+    |   |       |   |       |   \---template-rtl
+    |   |       |   |       \---template-rtl
+    |   |       |   |           +---assets
+    |   |       |   |           |   +---css
+    |   |       |   |           |   +---img
+    |   |       |   |           |   +---js
+    |   |       |   |           |   \---plugins
+    |   |       |   |           |       \---fontawesome
+    |   |       |   |           |           \---css
+    |   |       |   |           +---template
+    |   |       |   |           \---template-rtl
+    |   |       |   +---typicons
+    |   |       |   |   \---fonts
+    |   |       |   |       +---assets
+    |   |       |   |       |   +---css
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---img
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   +---js
+    |   |       |   |       |   |   +---assets
+    |   |       |   |       |   |   |   +---css
+    |   |       |   |       |   |   |   +---img
+    |   |       |   |       |   |   |   +---js
+    |   |       |   |       |   |   |   \---plugins
+    |   |       |   |       |   |   |       \---fontawesome
+    |   |       |   |       |   |   |           \---css
+    |   |       |   |       |   |   +---template
+    |   |       |   |       |   |   \---template-rtl
+    |   |       |   |       |   \---plugins
+    |   |       |   |       |       \---fontawesome
+    |   |       |   |       |           \---css
+    |   |       |   |       |               +---assets
+    |   |       |   |       |               |   +---css
+    |   |       |   |       |               |   +---img
+    |   |       |   |       |               |   +---js
+    |   |       |   |       |               |   \---plugins
+    |   |       |   |       |               |       \---fontawesome
+    |   |       |   |       |               |           \---css
+    |   |       |   |       |               +---template
+    |   |       |   |       |               \---template-rtl
+    |   |       |   |       +---template
+    |   |       |   |       |   +---assets
+    |   |       |   |       |   |   +---css
+    |   |       |   |       |   |   +---img
+    |   |       |   |       |   |   +---js
+    |   |       |   |       |   |   \---plugins
+    |   |       |   |       |   |       \---fontawesome
+    |   |       |   |       |   |           \---css
+    |   |       |   |       |   +---template
+    |   |       |   |       |   \---template-rtl
+    |   |       |   |       \---template-rtl
+    |   |       |   |           +---assets
+    |   |       |   |           |   +---css
+    |   |       |   |           |   +---img
+    |   |       |   |           |   +---js
+    |   |       |   |           |   \---plugins
+    |   |       |   |           |       \---fontawesome
+    |   |       |   |           |           \---css
+    |   |       |   |           +---template
+    |   |       |   |           \---template-rtl
+    |   |       |   \---weather
+    |   |       |       \---fonts
+    |   |       |           +---assets
+    |   |       |           |   +---css
+    |   |       |           |   |   +---assets
+    |   |       |           |   |   |   +---css
+    |   |       |           |   |   |   +---img
+    |   |       |           |   |   |   +---js
+    |   |       |           |   |   |   \---plugins
+    |   |       |           |   |   |       \---fontawesome
+    |   |       |           |   |   |           \---css
+    |   |       |           |   |   +---template
+    |   |       |           |   |   \---template-rtl
+    |   |       |           |   +---img
+    |   |       |           |   |   +---assets
+    |   |       |           |   |   |   +---css
+    |   |       |           |   |   |   +---img
+    |   |       |           |   |   |   +---js
+    |   |       |           |   |   |   \---plugins
+    |   |       |           |   |   |       \---fontawesome
+    |   |       |           |   |   |           \---css
+    |   |       |           |   |   +---template
+    |   |       |           |   |   \---template-rtl
+    |   |       |           |   +---js
+    |   |       |           |   |   +---assets
+    |   |       |           |   |   |   +---css
+    |   |       |           |   |   |   +---img
+    |   |       |           |   |   |   +---js
+    |   |       |           |   |   |   \---plugins
+    |   |       |           |   |   |       \---fontawesome
+    |   |       |           |   |   |           \---css
+    |   |       |           |   |   +---template
+    |   |       |           |   |   \---template-rtl
+    |   |       |           |   \---plugins
+    |   |       |           |       \---fontawesome
+    |   |       |           |           \---css
+    |   |       |           |               +---assets
+    |   |       |           |               |   +---css
+    |   |       |           |               |   +---img
+    |   |       |           |               |   +---js
+    |   |       |           |               |   \---plugins
+    |   |       |           |               |       \---fontawesome
+    |   |       |           |               |           \---css
+    |   |       |           |               +---template
+    |   |       |           |               \---template-rtl
+    |   |       |           +---template
+    |   |       |           |   +---assets
+    |   |       |           |   |   +---css
+    |   |       |           |   |   +---img
+    |   |       |           |   |   +---js
+    |   |       |           |   |   \---plugins
+    |   |       |           |   |       \---fontawesome
+    |   |       |           |   |           \---css
+    |   |       |           |   +---template
+    |   |       |           |   \---template-rtl
+    |   |       |           \---template-rtl
+    |   |       |               +---assets
+    |   |       |               |   +---css
+    |   |       |               |   +---img
+    |   |       |               |   +---js
+    |   |       |               |   \---plugins
+    |   |       |               |       \---fontawesome
+    |   |       |               |           \---css
+    |   |       |               +---template
+    |   |       |               \---template-rtl
+    |   |       +---ion-rangeslider
+    |   |       |   +---css
+    |   |       |   \---js
+    |   |       +---lightbox
+    |   |       +---material
+    |   |       |   \---fonts
+    |   |       |       +---assets
+    |   |       |       |   +---css
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   +---img
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   +---js
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   \---plugins
+    |   |       |       |       \---fontawesome
+    |   |       |       |           \---css
+    |   |       |       |               +---assets
+    |   |       |       |               |   +---css
+    |   |       |       |               |   +---img
+    |   |       |       |               |   +---js
+    |   |       |       |               |   \---plugins
+    |   |       |       |               |       \---fontawesome
+    |   |       |       |               |           \---css
+    |   |       |       |               +---template
+    |   |       |       |               \---template-rtl
+    |   |       |       +---materialdesignicons
+    |   |       |       |   +---assets
+    |   |       |       |   |   +---css
+    |   |       |       |   |   |   +---assets
+    |   |       |       |   |   |   |   +---css
+    |   |       |       |   |   |   |   +---img
+    |   |       |       |   |   |   |   +---js
+    |   |       |       |   |   |   |   \---plugins
+    |   |       |       |   |   |   |       \---fontawesome
+    |   |       |       |   |   |   |           \---css
+    |   |       |       |   |   |   +---template
+    |   |       |       |   |   |   \---template-rtl
+    |   |       |       |   |   +---img
+    |   |       |       |   |   |   +---assets
+    |   |       |       |   |   |   |   +---css
+    |   |       |       |   |   |   |   +---img
+    |   |       |       |   |   |   |   +---js
+    |   |       |       |   |   |   |   \---plugins
+    |   |       |       |   |   |   |       \---fontawesome
+    |   |       |       |   |   |   |           \---css
+    |   |       |       |   |   |   +---template
+    |   |       |       |   |   |   \---template-rtl
+    |   |       |       |   |   +---js
+    |   |       |       |   |   |   +---assets
+    |   |       |       |   |   |   |   +---css
+    |   |       |       |   |   |   |   +---img
+    |   |       |       |   |   |   |   +---js
+    |   |       |       |   |   |   |   \---plugins
+    |   |       |       |   |   |   |       \---fontawesome
+    |   |       |       |   |   |   |           \---css
+    |   |       |       |   |   |   +---template
+    |   |       |       |   |   |   \---template-rtl
+    |   |       |       |   |   \---plugins
+    |   |       |       |   |       \---fontawesome
+    |   |       |       |   |           \---css
+    |   |       |       |   |               +---assets
+    |   |       |       |   |               |   +---css
+    |   |       |       |   |               |   +---img
+    |   |       |       |   |               |   +---js
+    |   |       |       |   |               |   \---plugins
+    |   |       |       |   |               |       \---fontawesome
+    |   |       |       |   |               |           \---css
+    |   |       |       |   |               +---template
+    |   |       |       |   |               \---template-rtl
+    |   |       |       |   +---template
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   \---template-rtl
+    |   |       |       |       +---assets
+    |   |       |       |       |   +---css
+    |   |       |       |       |   +---img
+    |   |       |       |       |   +---js
+    |   |       |       |       |   \---plugins
+    |   |       |       |       |       \---fontawesome
+    |   |       |       |       |           \---css
+    |   |       |       |       +---template
+    |   |       |       |       \---template-rtl
+    |   |       |       +---template
+    |   |       |       |   +---assets
+    |   |       |       |   |   +---css
+    |   |       |       |   |   +---img
+    |   |       |       |   |   +---js
+    |   |       |       |   |   \---plugins
+    |   |       |       |   |       \---fontawesome
+    |   |       |       |   |           \---css
+    |   |       |       |   +---template
+    |   |       |       |   \---template-rtl
+    |   |       |       \---template-rtl
+    |   |       |           +---assets
+    |   |       |           |   +---css
+    |   |       |           |   +---img
+    |   |       |           |   +---js
+    |   |       |           |   \---plugins
+    |   |       |           |       \---fontawesome
+    |   |       |           |           \---css
+    |   |       |           +---template
+    |   |       |           \---template-rtl
+    |   |       +---moment
+    |   |       +---morris
+    |   |       +---peity
+    |   |       +---raty
+    |   |       +---scrollbar
+    |   |       +---select2
+    |   |       |   +---css
+    |   |       |   \---js
+    |   |       +---simple-calendar
+    |   |       +---simpleline
+    |   |       |   \---fonts
+    |   |       |       +---assets
+    |   |       |       |   +---css
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   +---img
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   +---js
+    |   |       |       |   |   +---assets
+    |   |       |       |   |   |   +---css
+    |   |       |       |   |   |   +---img
+    |   |       |       |   |   |   +---js
+    |   |       |       |   |   |   \---plugins
+    |   |       |       |   |   |       \---fontawesome
+    |   |       |       |   |   |           \---css
+    |   |       |       |   |   +---template
+    |   |       |       |   |   \---template-rtl
+    |   |       |       |   \---plugins
+    |   |       |       |       \---fontawesome
+    |   |       |       |           \---css
+    |   |       |       |               +---assets
+    |   |       |       |               |   +---css
+    |   |       |       |               |   +---img
+    |   |       |       |               |   +---js
+    |   |       |       |               |   \---plugins
+    |   |       |       |               |       \---fontawesome
+    |   |       |       |               |           \---css
+    |   |       |       |               +---template
+    |   |       |       |               \---template-rtl
+    |   |       |       +---template
+    |   |       |       |   +---assets
+    |   |       |       |   |   +---css
+    |   |       |       |   |   +---img
+    |   |       |       |   |   +---js
+    |   |       |       |   |   \---plugins
+    |   |       |       |   |       \---fontawesome
+    |   |       |       |   |           \---css
+    |   |       |       |   +---template
+    |   |       |       |   \---template-rtl
+    |   |       |       \---template-rtl
+    |   |       |           +---assets
+    |   |       |           |   +---css
+    |   |       |           |   +---img
+    |   |       |           |   +---js
+    |   |       |           |   \---plugins
+    |   |       |           |       \---fontawesome
+    |   |       |           |           \---css
+    |   |       |           +---template
+    |   |       |           \---template-rtl
+    |   |       +---slimscroll
+    |   |       +---stickynote
+    |   |       +---summernote
+    |   |       |   \---font
+    |   |       +---sweetalert
+    |   |       +---timeline
+    |   |       +---toastr
+    |   |       \---twitter-bootstrap-wizard
+    |   \---templates
+    +---generated-sources
+    |   \---annotations
+    +---generated-test-sources
+    |   \---test-annotations
+    +---maven-archiver
+    +---maven-status
+    |   \---maven-compiler-plugin
+    |       +---compile
+    |       |   \---default-compile
+    |       \---testCompile
+    |           \---default-testCompile
+    +---surefire-reports
+    \---test-classes
+        \---com
+            \---vgnit
+                \---medical
